@@ -4,6 +4,10 @@
     font-weight: unset;
 }
 
+.white{
+    color: white;
+}
+
 h1.head-text {
     font-weight: bold;
 }
@@ -51,13 +55,42 @@ address a:visited{
 
 h3.contact{
     padding-top: 20px;
-    padding-left: 25px;
     padding-bottom: 7px;
     color: #0098cf;
+    font-size: 16px;
 }
 
 hr.mid-hr{
-    margin-left: 15px;
+    margin-left: -10px;
     border: 1px solid #0098cf;
-    width: 370px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.left-section{
+    padding-left: 35px;
+}
+
+.left-section p{
+    color: #555555;
+}
+
+.contact-formation{
+    font-size: 14px;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.form-strong{
+    font-weight: bold;
+    color: black;
+}
+
+.form-etab{
+    color: #0098cf;
+}
+
+.tableau{
+    padding: 0;
+    list-style: none;
 }
