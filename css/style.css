@@ -3,9 +3,19 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: unset;
 }
-
+body{
+    padding-bottom: 20px;
+}
 .white{
     color: white;
+}
+
+#flex{
+    display: flex;
+}
+
+#art-right{
+    margin-left: 30px;
 }
 
 h1.head-text {
@@ -71,7 +81,7 @@ hr.mid-hr{
     padding-left: 35px;
 }
 
-.left-section p{
+.left-section p[class=]{
     color: #555555;
 }
 
@@ -93,4 +103,36 @@ hr.mid-hr{
 .tableau{
     padding: 0;
     list-style: none;
+}
+.form-desc{
+    color: #555555;
+}
+
+.li-tab{
+    margin-top: 15px;
+}
+
+.list-tab li{
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+.container-bar {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+.skills {
+    margin-top: 10px;
+    text-align: right;
+    padding-top: 10px;
+  }
+  
+.fr {width: 80%; background-color: #2196F3;}
+.ang {width: 60%; background-color: #2196F3;}
+
+.lang{
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
 }
