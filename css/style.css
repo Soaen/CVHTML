@@ -1,28 +1,37 @@
+@font-face {
+    font-family: "Lato Regular";
+    src: url(../font/Lato-Regular.ttf) format("truetype");
+}
 *{
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato Regular', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: unset;
 }
+
 body{
     padding-bottom: 20px;
 }
+
 .white{
     color: white;
 }
 
 #flex{
     display: flex;
+    font-size: large;
 }
 
 #art-right{
-    margin-left: 30px;
+    margin-left: 175px;
 }
 
 h1.head-text {
     font-weight: bold;
+    font-size: 40px;
 }
+
 h2.head-text{
-    font-size: medium;
+    font-size: 20px;
 }
 
 .header-class {
@@ -51,23 +60,20 @@ img.img-logo{
 }
 
 address{
-    padding-left: 200px;
+    padding-left: 220px;
 }
 
-address a:link{
+address a{
     padding-left: 10px;
     text-decoration: underline;
     color: lightgray;
-}
-address a:visited{
-    color: darkgray;
 }
 
 h3.contact{
     padding-top: 20px;
     padding-bottom: 7px;
     color: #0098cf;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 hr.mid-hr{
@@ -104,6 +110,7 @@ hr.mid-hr{
     padding: 0;
     list-style: none;
 }
+
 .form-desc{
     color: #555555;
 }
@@ -120,13 +127,13 @@ hr.mid-hr{
 .container-bar {
     width: 100%;
     background-color: #ddd;
-  }
+}
   
 .skills {
     margin-top: 10px;
     text-align: right;
     padding-top: 10px;
-  }
+}
   
 .fr {width: 80%; background-color: #2196F3;}
 .ang {width: 60%; background-color: #2196F3;}
